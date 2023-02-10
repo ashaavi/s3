@@ -1,9 +1,9 @@
 provider "aws" {
-    region = "us-east-2"
+    region = "ap-south-1"
 }
 
 resource "aws_s3_bucket" "backend-s3" {
-  bucket = "hjhjhjhj" 
+  bucket = "awsbucketss" 
   force_destroy = "true"
   
 }
