@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "backend-s3" {
-  bucket = "awsbucketss" 
+  bucket = "shivayanamaha" 
   force_destroy = "true"
   
 }
